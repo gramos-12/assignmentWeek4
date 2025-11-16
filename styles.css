@@ -46,17 +46,19 @@ li {
 .top_img {
   display: flex;
   margin:auto;
-  width: 90%;
+  width: 100%;
   height: 300px;
   object-fit: cover;
 }
 .par1 {
-  padding: 40px;
+  font-size: 20px;
+  padding: 50px 100px 50px 100px;
   margin:auto;
-  width: 90%;
-  background-color: burlywood;
+  width: 100%;
+  background-color:bisque
 }
 .h2_1 {
+  margin-top: 40px;
   text-align: center;
   font-size: 30px;
 }
