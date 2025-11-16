@@ -13,7 +13,6 @@ header {
 .logo img {
   height:140px;
   padding: 0;
-  border: 2px solid black;
 }
 h3 {
   font-size: 22px;
@@ -69,7 +68,12 @@ li {
   /*background-color:beige;*/
   border: 3px solid black;
 }
-
+.Hot_Bev:hover{ 
+  background-color: chartreuse;
+}
+figcaption {
+  text-align: center;
+}
 .group1 {
   margin-top: 50px;
   margin-left: 150px;
@@ -124,4 +128,16 @@ address {
  width: 100px;
  height: 100px;
  background-color: aqua;
+}
+#cb {
+  margin:auto;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+#hb {
+  margin:auto;
+  width: 200px;
+  height: 1000px;
+  text-align: center;
 }
