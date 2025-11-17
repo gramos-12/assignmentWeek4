@@ -5,13 +5,13 @@
 }
 header {
   width: 90%;
-  height: 140px;
+  height: 100px;
   margin: auto;
   /*background-color:bisque;*/
   display: flex;
 }
 .logo img {
-  height:140px;
+  height:100px;
   padding: 0;
 }
 h3 {
@@ -39,22 +39,26 @@ li {
   border-right: 1px solid black;
 }
 .active {
-  background-color:darkgreen;
-  color:white;
+  background-color: bisque;
 }
 .top_img {
   display: flex;
   margin:auto;
   width: 100%;
-  height: 300px;
+  height: 350px;
   object-fit: cover;
+}
+.first_h1 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 40px;
 }
 .par1 {
   font-size: 20px;
   padding: 50px 100px 50px 100px;
   margin:auto;
   width: 100%;
-  background-color:bisque
+  
 }
 .h2_1 {
   margin-top: 40px;
@@ -65,8 +69,7 @@ li {
   width: 90%;
   height: auto;
   margin: auto;
-  /*background-color:beige;*/
-  border: 3px solid black;
+ 
 }
 .Hot_Bev:hover{ 
   background-color: chartreuse;
@@ -101,7 +104,7 @@ footer {
   width: 100%;
   height: 300px;
   background-color:bisque;
-  border: 2px solid black;
+ 
   display:flex;
 }
 address { /*Cafe Address*/
@@ -119,7 +122,7 @@ address { /*Cafe Address*/
   margin-top: 30px;
   height:140px;
   padding: 0;
-  border: 2px solid black;
+  
 }
 .hd3_2 {/*TLC Coffee & Tea header*/
  font-weight: lighter;
