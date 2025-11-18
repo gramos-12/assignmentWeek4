@@ -166,3 +166,46 @@ font-weight:normal;
  left: 240px;
  top: 80px;
 }
+@media screen and (max-width: 1200px) {
+  
+  .logo{
+    margin-left: 45%;
+  }
+  nav {
+    position: relative;
+    left: 40px;
+    top: 10px;
+    margin:auto;
+  }
+  
+  .group1, .group2 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .par1 {
+  font-size: 24px;
+  margin:auto;
+  padding:0;
+  width: 80%;
+  }
+}
+  
+@media screen and (max-width: 800px) {
+
+  .group1, .group2 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .hot_bev {
+    margin-bottom: 20px;
+  }
+  .par1 {
+  font-size: 24px;
+  margin:0;
+  padding:0;
+  width: auto;
+  
+}
+}
