@@ -109,7 +109,23 @@ footer {
   border: 5px solid black;
   padding-bottom: 40px;
 }
-.address_info {
+.logo_footer img {
+  margin-top: 30px;
+  margin-left: 0;
+  margin-right: 0;
+  height:140px;
+  padding: 0;
+}
+/*TLC Coffee & Tea header*/
+.hd3_2 {
+ font-weight: lighter;
+ font-size: 22px;
+ margin-top: 60px;
+ width: 100px;
+ height: 80px;
+ border: 2px solid black;
+}
+.address_info { /*VISIT US Address section*/
   height: 240px;
   width: 500px;
   margin-left: 200px;
@@ -117,20 +133,18 @@ footer {
   position: relative;
   left: 40px;
   top: 20px;
-  border: 5px solid black;
+  border: 2px solid black;
 }
-.connect_info {
-  height: 240px;
-  width: 200px;
-  margin-left: 200px;
-  margin-right: 200px;
+.hd5_5 { /*VISIT US Address header*/
+  font-weight:bolder;
+  font-size: 22px;
+  width: 140px;
+  height: 40px;
   position: relative;
-  left: 40px;
-  top: 20px;
-  border: 5px solid black;
+  left: 0px;
+  top: 0px;
 }
-
-address { /*Visit Us Address*/
+  address { /*Visit Us Address*/
   font-family:Arial, Helvetica, sans-serif;
   font-weight:normal;
   font-size: 22px;
@@ -140,6 +154,25 @@ address { /*Visit Us Address*/
   top: 0;
   width: auto;
   height: 150px;
+}
+.connect_info { /*CONNECT Info section*/
+  height: 240px;
+  width: 200px;
+  margin-left: 200px;
+  margin-right: 200px;
+  position: relative;
+  left: 40px;
+  top: 20px;
+  border: 2px solid black;
+}
+.hd4_3 { /*CONNECT Info header*/
+  font-weight:bolder;
+  font-size: 22px;
+  width: 140px;
+  height: 40px;
+  position: relative;
+  left: 0px;
+  top: 0px;
 }
 .parg1_3 { /*Connect Info*/
   font-family:Arial, Helvetica, sans-serif;
@@ -152,20 +185,8 @@ address { /*Visit Us Address*/
   width: auto;
   height: 150px;
 }
-.logo_footer img {
-  margin-top: 30px;
-  height:140px;
-  padding: 0;
-}
-/*TLC Coffee & Tea header*/
-.hd3_2 {
- font-weight: lighter;
- font-size: 22px;
- width: 100px;
- height: 80px;
- background-color: skyblue;
- borde: 2px; solid black;
-}
+
+
 #cb {
   margin:auto;
   width: 200px;
@@ -178,26 +199,8 @@ address { /*Visit Us Address*/
   height: 1000px;
   text-align: center;
 }
-.hd5_5 { /*VISIT US header*/
- font-weight:bolder;
- font-size: 22px;
- width: 140px;
- height: 40px;
- position: relative;
- left: 0px;
- top: 0px;
- background-color: blueviolet;
-}
-.hd4_3 { /*CONNECT header*/
- font-weight:bolder;
- font-size: 22px;
- width: 140px;
- height: 40px;
- position: relative;
- left: 0px;
- top: 0px;
- background-color:chartreuse
-}
+
+
 
 @media screen and (max-width: 1200px) {
   header {
