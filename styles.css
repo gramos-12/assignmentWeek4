@@ -3,9 +3,11 @@
   margin: 0;
   padding: 0;
 }
+body {
+  padding-top: 10px;
+}
 header {
   width: 90%;
-  height: 100px;
   margin: auto;
   display: flex;
 }
@@ -20,7 +22,6 @@ h3 {
   top: 20%;
 }
 nav {
-  height:25px;
   position:relative;
   left: 100px;
   top: 50px;
@@ -81,8 +82,9 @@ figcaption {
   margin-right: 150px;
   display: flex;
   justify-content: space-between;
-  
-  
+}
+.group1 .Hot_Bev{
+  border: 2px solid black;
 }
 .group2 {
   margin-top: 100px;
@@ -103,11 +105,10 @@ footer {
   height:auto;
   background-color:rgb(237, 204, 161);
   display:flex;
+  justify-content:space-around;
   margin: auto;
   margin-bottom: 40px;
-  padding-right: 20px;
-  border: 5px solid black;
-  padding-bottom: 40px;
+  padding: 20px;
 }
 .logo_footer img {
   margin-top: 30px;
@@ -120,20 +121,10 @@ footer {
 .hd3_2 {
  font-weight: lighter;
  font-size: 22px;
- margin-top: 60px;
- width: 100px;
- height: 80px;
- border: 2px solid black;
+ flex-grow: 1;
 }
 .address_info { /*VISIT US Address section*/
-  height: 240px;
-  width: 500px;
-  margin-left: 200px;
-  margin: auto;
-  position: relative;
-  left: 40px;
-  top: 20px;
-  border: 2px solid black;
+  flex-grow: 2;
 }
 .hd5_5 { /*VISIT US Address header*/
   font-weight:bolder;
@@ -149,21 +140,9 @@ footer {
   font-weight:normal;
   font-size: 22px;
   font-style: normal;
-  position: relative;
-  left: 0;
-  top: 0;
-  width: auto;
-  height: 150px;
 }
 .connect_info { /*CONNECT Info section*/
-  height: 240px;
-  width: 200px;
-  margin-left: 200px;
-  margin-right: 200px;
-  position: relative;
-  left: 40px;
-  top: 20px;
-  border: 2px solid black;
+  flex-grow: 2;
 }
 .hd4_3 { /*CONNECT Info header*/
   font-weight:bolder;
@@ -183,7 +162,6 @@ footer {
   left: 0;
   top: 0;
   width: auto;
-  height: 150px;
 }
 
 
@@ -205,7 +183,6 @@ footer {
 @media screen and (max-width: 1200px) {
   header {
   width: 100%;
-  height: 100px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -240,28 +217,35 @@ footer {
   height:auto;
   margin: auto;
   margin-bottom: 40px;
-  border: 5px solid black;
 }
 .address_info {
   height: auto;
   width: auto;
-  margin: auto;
 }
 .hd5_5 { /*VISIT US header*/
  width: auto; 
 }
-.
 }
   
 @media screen and (max-width: 800px) {
 
   header {
   width: 100%;
-  height: 100px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
 }
+ header.logo{
+  width: 40%;
+  margin-left: 0;
+  }
+  header h3 {
+  width: 40%;
+  left: 0;
+  top:0;
+  margin: 0;
+  padding: 0;
+  }
 .main {
   width: 100%;
   height: auto;
@@ -274,9 +258,6 @@ footer {
     align-items: center;
   }
   
-  .hot_bev {
-    margin-bottom: 20px;
-  }
   .par1 {
   font-size: 24px;
   margin:20px;
@@ -285,11 +266,17 @@ footer {
 }
 
 li {
-  align-content: bottom;
-  display: inline-block;
+  display: block;
   width: auto;
   line-height: em;
   font-family: Arial, Helvetica, sans-serif;
-  border-right: 1px solid black;
+  border-right: none;
+}
+
+footer {
+display: block;
+}
+footer h3{
+  left:0;
 }
 }
