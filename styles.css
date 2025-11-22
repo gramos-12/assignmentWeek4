@@ -200,16 +200,17 @@ footer {
   }
  
   .par1 {
-  font-size: 24px;
-  margin:auto;
+  font-size: 22px;
+  margin:20px;
   padding:0;
-  width: 80%;
+  width: auto;
   }
   .main {
   width: 90%;
   height: auto;
   margin: auto;
  padding-top: 60px;
+ padding-bottom: 20px;
 }
 footer {
   width: 100%;
@@ -266,10 +267,11 @@ footer {
   margin-right: 0px;
   }
   .par1 {
-  font-size: 24px;
+  font-size: 20px;
   margin:20px;
   padding:0;
   width: auto;
+  
 }
 li {
   display: block;
@@ -278,7 +280,9 @@ li {
   font-family: Arial, Helvetica, sans-serif;
   border-right: none;
 }
-
+.main h1{
+  font-size: 28px;
+}
 footer {
 display: block;
 text-align: center;
