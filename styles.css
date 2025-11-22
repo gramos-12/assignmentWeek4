@@ -82,9 +82,13 @@ figcaption {
   margin-right: 150px;
   display: flex;
   justify-content: space-between;
+  border: solid red 2px;
 }
 .group1 .Hot_Bev{
   border: 2px solid black;
+}
+.group1 .Cold_Bev{
+  border: 2px springgreen solid;
 }
 .group2 {
   margin-top: 100px;
@@ -200,6 +204,7 @@ footer {
     margin-left: 0px;
     margin-right: 0px;
   }
+ 
   .par1 {
   font-size: 24px;
   margin:auto;
@@ -252,6 +257,7 @@ footer {
   margin: auto;
  padding-top: 60px;
 }
+ 
   .group1, .group2 {
     flex-direction: row;
     flex-wrap: wrap;
