@@ -73,6 +73,9 @@ li {
 .Hot_Bev:hover{ 
   background-color:rgb(237, 204, 161);
 }
+.sm_oothies:hover{ 
+  background-color:rgb(237, 204, 161);
+}
 figcaption {
   text-align: center;
 }
@@ -82,14 +85,8 @@ figcaption {
   margin-right: 150px;
   display: flex;
   justify-content: space-between;
-  border: solid red 2px;
 }
-.group1 .Hot_Bev{
-  border: 2px solid black;
-}
-.group1 .Cold_Bev{
-  border: 2px springgreen solid;
-}
+
 .group2 {
   margin-top: 100px;
   margin-left: 150px;
@@ -99,11 +96,8 @@ figcaption {
   justify-content: space-between;
   
 }
-.hot_bev {
-  width: 100px;
-  height: 150px;
-  background-color: burlywood;
-}
+
+  
 footer {
   width: 100%;
   height:auto;
@@ -230,6 +224,13 @@ footer {
 .hd5_5 { /*VISIT US header*/
  width: auto; 
 }
+.connect_info {
+  height: auto;
+  width: auto;
+}
+.hd4_3 { /*VISIT US header*/
+ width: auto; 
+}
 }
   
 @media screen and (max-width: 800px) {
@@ -251,26 +252,25 @@ footer {
   margin: 0;
   padding: 0;
   }
-.main {
-  width: 100%;
-  height: auto;
-  margin: auto;
- padding-top: 60px;
+.h_bev{
+  width: 50%;
 }
- 
-  .group1, .group2 {
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
+.s_moothies{
+  width: 50%;
+}
+.group1, .group2 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
   }
-  
   .par1 {
   font-size: 24px;
   margin:20px;
   padding:0;
   width: auto;
 }
-
 li {
   display: block;
   width: auto;
@@ -281,6 +281,7 @@ li {
 
 footer {
 display: block;
+text-align: center;
 }
 footer h3{
   left:0;
