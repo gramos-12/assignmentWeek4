@@ -260,12 +260,12 @@ footer {
   width: 50%;
 }
 .group1, .group2 {
+  
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  margin-left: 0px;
-  margin-right: 0px;
-  }
+  
+}
   .par1 {
   font-size: 20px;
   margin:20px;
