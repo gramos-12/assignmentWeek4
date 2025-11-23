@@ -70,6 +70,38 @@ li {
   height: auto;
   margin: auto;
 }
+div.h_bev:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+div.cold_bev:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+div.frapps:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+div.teas:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+div.s_moothies:hover:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+div.sandwiches:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+div.cof_beans:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+div.leaf_teas:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
 .hot_bev:hover{ 
   background-color:rgb(237, 204, 161);
 }
@@ -162,18 +194,26 @@ footer {
   top: 0;
   width: auto;
 }
-#cb {
-  margin:auto;
-  width: 200px;
-  height: 200px;
-  text-align: center;
+.main_menu {
+  margin-top: 50px;
 }
 #hb {
   margin:auto;
   width: 200px;
-  height: 1000px;
+  height: 40px;
   text-align: center;
+  border: 2px solid black;
+  margin-bottom: 1000px;
 }
+#cb {
+  margin:auto;
+  margin-bottom: 400px;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  border: 2px solid black;
+}
+
 @media screen and (max-width: 1200px) {
   header {
   width: 100%;
