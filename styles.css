@@ -70,7 +70,7 @@ li {
   margin: auto;
  
 }
-.Hot_Bev:hover{ 
+.hot_bev:hover{ 
   background-color:rgb(237, 204, 161);
 }
 .sm_oothies:hover{ 
@@ -85,6 +85,7 @@ figcaption {
   margin-right: 150px;
   display: flex;
   justify-content: space-between;
+  text-align: center;
 }
 
 .group2 {
@@ -94,7 +95,7 @@ figcaption {
   margin-bottom: 50px;
   display: flex;
   justify-content: space-between;
-  
+  text-align: center;
 }
 
   
@@ -175,9 +176,6 @@ footer {
   height: 1000px;
   text-align: center;
 }
-
-
-
 @media screen and (max-width: 1200px) {
   header {
   width: 100%;
@@ -198,7 +196,6 @@ footer {
     margin-left: 0px;
     margin-right: 0px;
   }
- 
   .par1 {
   font-size: 22px;
   margin:20px;
@@ -256,22 +253,40 @@ footer {
 .h_bev{
   width: 50%;
 }
+.cold_bev{
+  width: 50%;
+}
 .s_moothies{
   width: 50%;
 }
+.frapps{
+  width: 50%;
+}
+.teas{
+  width: 50%;
+}
+.s_moothies{
+  width: 50%;
+}
+.sandwiches{
+  width: 50%;
+}
+.cof_beans{
+  width: 50%;
+}
+.leaf_teas{
+  width: 50%;
+}
 .group1, .group2 {
-  
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  
 }
   .par1 {
   font-size: 20px;
   margin:20px;
   padding:0;
   width: auto;
-  
 }
 li {
   display: block;
