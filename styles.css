@@ -57,7 +57,6 @@ li {
   padding: 50px 200px 50px 200px;
   margin:auto;
   width: 100%;
-  
 }
 .main h2 {
   margin-top: 40px;
@@ -68,7 +67,6 @@ li {
   width: 90%;
   height: auto;
   margin: auto;
- 
 }
 .hot_bev:hover{ 
   background-color:rgb(237, 204, 161);
@@ -87,7 +85,6 @@ figcaption {
   justify-content: space-between;
   text-align: center;
 }
-
 .group2 {
   margin-top: 100px;
   margin-left: 150px;
@@ -96,9 +93,7 @@ figcaption {
   display: flex;
   justify-content: space-between;
   text-align: center;
-}
-
-  
+}  
 footer {
   width: 100%;
   height:auto;
@@ -162,8 +157,6 @@ footer {
   top: 0;
   width: auto;
 }
-
-
 #cb {
   margin:auto;
   width: 200px;
