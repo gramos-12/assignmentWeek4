@@ -117,6 +117,7 @@ footer {
  font-size: 22px;
  flex-grow: 1;
  margin-top: 60px;
+ margin-right: 50px;
 
 }
 .address_info { /*VISIT US Address section*/
@@ -130,6 +131,7 @@ footer {
   position: relative;
   left: 0px;
   top: 0px;
+  margin-right: 10px;
 }
   address { /*Visit Us Address*/
   font-family:Arial, Helvetica, sans-serif;
@@ -285,9 +287,9 @@ footer {
 }
 li {
   display: block;
-  height:36px;
+  height:38px;
   width: auto;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: bold;
   line-height:em;
   font-family: Arial, Helvetica, sans-serif;
