@@ -86,7 +86,7 @@ figcaption {
   text-align: center;
 }
 .group2 {
-  margin-top: 100px;
+  margin-top: 30px;
   margin-left: 150px;
   margin-right: 150px;
   margin-bottom: 50px;
@@ -116,6 +116,8 @@ footer {
  font-weight: lighter;
  font-size: 22px;
  flex-grow: 1;
+ margin-top: 60px;
+
 }
 .address_info { /*VISIT US Address section*/
   flex-grow: 2;
@@ -283,8 +285,11 @@ footer {
 }
 li {
   display: block;
+  height:36px;
   width: auto;
-  line-height: em;
+  font-size: 24px;
+  font-weight: bold;
+  line-height:em;
   font-family: Arial, Helvetica, sans-serif;
   border-right: none;
 }
@@ -295,7 +300,25 @@ footer {
 display: block;
 text-align: center;
 }
+.logo_footer img {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/*TLC Coffee & Tea header*/
+.hd3_2 {
+  margin-top: 0;
+}
 footer h3{
   left:0;
+}
+.hd5_5 { /*VISIT US header*/
+ margin-top: 20px;
+ font-size: 26px;
+ text-decoration: underline;
+}
+.hd4_3 { /*CONNECT Info header*/
+ margin-top: 20px;
+ font-size: 26px;
+ text-decoration: underline;
 }
 }
