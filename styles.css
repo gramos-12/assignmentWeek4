@@ -32,6 +32,7 @@ ul {
 li {
   align-content: bottom;
   display: inline-block;
+  font-size: 20px;
   width: 150px;
   line-height: em;
   font-family: Arial, Helvetica, sans-serif;
